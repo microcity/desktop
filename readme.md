@@ -1,4 +1,3 @@
 # MicroCity
 A Spatial Transportation Modeling Framework
-
-https://github.com/microcity/microcity/tree/main/doc
+![Screenshots](https://github.com/microcity/microcity/blob/main/docs/images/microcity.png)
