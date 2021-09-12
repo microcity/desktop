@@ -1,6 +1,6 @@
 # MicroCity
 A Spatial Transportation Modeling Framework
-![Screenshots](https://github.com/microcity/microcity/blob/main/microcity.png)
+![Screenshots](microcity.png)
 ## Quick Start
 [Download and install MicroCity](https://github.com/microcity/microcity/releases/download/MicroCity2.0/MicroCity2.0Setup.exe).  
 Open ScriptEditor and write:  
