@@ -1,5 +1,5 @@
 # MicroCity
-A Spatial Transportation Modeling Framework
+A Spatial Planning Tool
 ![Screenshots](microcity.png)
 ## Quick Start
 [Download and install MicroCity](https://github.com/microcity/microcity/releases/download/MicroCity2.0/MicroCity2.0Setup.exe).  
