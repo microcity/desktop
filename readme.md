@@ -2,7 +2,7 @@
 A Spatial Planning Tool
 ![Screenshots](imgs/microcity.png)
 ## Quick Start
-[Download and install MicroCity](/releases/latest).  
+[Download and install MicroCity](https://github.com/microcity/microcity.github.io/releases/latest).  
 Open ScriptEditor and write:  
 ```lua
 Print("hello, world!")
