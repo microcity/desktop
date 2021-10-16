@@ -1,7 +1,7 @@
 # Documentation
 
 ## Table of Contents
----
+<!--ts-->
 *Introduction
   *[What MicroCity Can Do](https://github.com/microcity/microcity.github.io/docs/intro.md)
 *Getting Started
@@ -18,3 +18,4 @@
 *Scripting Reference
   *[Lua Language](https://github.com/microcity/microcity.github.io/docs/lua.md)
   *[Basic Operations](https://github.com/microcity/microcity.github.io/docs/basic.md)
+<!--te-->
