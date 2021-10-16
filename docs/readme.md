@@ -2,18 +2,18 @@
 
 ## Table of Contents
 - Introduction
-  - [What MicroCity Can Do](https://github.com/microcity/microcity.github.io/docs/intro.md)
+  - [What MicroCity Can Do](intro.md)
 - Getting Started
-  - [Showing World Map](https://github.com/microcity/microcity.github.io/docs/showmap.md)
-  - [Searching for Countries](https://github.com/microcity/microcity.github.io/docs/search.md)
+  - [Showing World Map](showmap.md)
+  - [Searching for Countries](search.md)
 - User Interfaces
-  - [Overview](https://github.com/microcity/microcity.github.io/docs/gui.md)
-  - [Vector Shapes](https://github.com/microcity/microcity.github.io/docs/shapes.md)
-  - [Raster Grids](https://github.com/microcity/microcity.github.io/docs/grids.md)
-  - [Maps and Layers](https://github.com/microcity/microcity.github.io/docs/maps.md)
-  - [3D Scenes](https://github.com/microcity/microcity.github.io/docs/scene.md)
-  - [Tables](https://github.com/microcity/microcity.github.io/docs/tables.md)
-  - [Modules](https://github.com/microcity/microcity.github.io/docs/modules.md)
+  - [Overview](uioverview.md)
+  - [Vector Shapes](shapes.md)
+  - [Raster Grids](grids.md)
+  - [Maps and Layers](maps.md)
+  - [3D Scenes](scene.md)
+  - [Tables](tables.md)
+  - [Modules](modules.md)
 - Scripting Reference
-  - [Lua Language](https://github.com/microcity/microcity.github.io/docs/lua.md)
-  - [Basic Operations](https://github.com/microcity/microcity.github.io/docs/basic.md)
+  - [Lua Language](lua.md)
+  - [Basic Operations](basic.md)
