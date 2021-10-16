@@ -1,6 +1,6 @@
 # MicroCity
 A Spatial Planning Tool
-![Screenshots](imgs/microcity.png)
+![Screenshots](docs/imgs/microcity.png)
 ## Quick Start
 [Download and install MicroCity](https://github.com/microcity/microcity.github.io/releases/latest).  
 Open ScriptEditor and write:  
@@ -9,6 +9,6 @@ Print("hello, world!")
 ```
 Save to **test.mcs** and open it in MicroCity.  
 Find **modules** tab and double click "main" under "test" module.  
-For more tutorials please go to [**Wiki**](https://github.com/microcity/microcity.github.io/wiki).  
+For more tutorials please go to [**Documentation**](docs/).  
 ## Author
 Sun Zhuo (mixwind@gmail.com)
