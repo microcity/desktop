@@ -9,6 +9,6 @@ Print("hello, world!")
 ```
 Save to **test.mcs** and open it in MicroCity.  
 Find **modules** tab and double click "main" under "test" module.  
-For more tutorials and documentation please go to [**Wikibooks**](https://en.wikibooks.org/wiki/MicroCity).  
+For more tutorials please go to [**Documentation**](docs/).  
 ## Author
 Sun Zhuo (mixwind@gmail.com)
