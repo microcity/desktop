@@ -1,6 +1,6 @@
 # Documentation
 
-##Table of Contents
+## Table of Contents
 ---
 *Introduction
   *[What MicroCity Can Do](https://github.com/microcity/microcity.github.io/docs/intro.md)
