@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - Introduction
-  - [1. What MicroCity can Do](1. What MicroCity can Do.md)
+  - [1. What MicroCity can Do](1.what_microcity_can_do.md)
 - Getting Started
   - [Showing World Map](showing_world_map.md)
   - [Searching for Countries](searching_for_countries.md)
