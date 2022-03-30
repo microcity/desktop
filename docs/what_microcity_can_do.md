@@ -1,8 +1,13 @@
 # What MicroCity can Do
-Based on GIS, Networks and Optimization libraries, MicroCity can be used as a modeling tool to solve planning problems, <br/>
-such as **City Logistics and Shipping Planning:**<br/>
+MicroCity is designed to be a handy spatial planning tool, which is **portable, compact and fast**.
+## A Modeling Framework
+Based on GIS, Networks and Mixed Integer Programming libraries, MicroCity can be used as a modeling framework to solve transporation problems, such as **City Logistics and Shipping Planning:**<br/>
 <img src="imgs/city_logistics.png" width="480" height="344"> <img src="imgs/shipping_planning.png" width="480" height="344"><br/>
-and ****<br/>
+## A Simulation Platform
+Based on 3D CGI, Discrete Event Engine, MicroCity can be used as a simulation platform to evaluate logistic scenarios, such as **Automated Warehouse Simulation and Container Terminal Simulation:**<br/>
+<img src="imgs/warehouse_simulation.gif" width="480" height="270"> <img src="imgs/terminal_simulation.gif" width="480" height="270"><br/>
+## Scripting
+MicroCity uses lua as its scripting language which and be edited and debugged in **Script Editor:**<br/>
+<img src="imgs/script_editor.png" width="480" height="312"><br/>
 
-
-and 3DCGI technologies, MicroCity provides spatial graphics, networks, optimization and simulation modeling and algorithm tools, and a flexible scripting engine provides programming interfaces for secondary development. At present, commercial software in this field is dominated by European and American commercial software, which are expensive and uncontrollable. This software provides a zero-cost, lightweight, efficient and scalable platform for teaching and research, filling the gaps in related international fields. Teaching and scientific research such as: transportation planning, logistics and supply chain optimization, automated warehouse and dock simulation, etc. have been widely used. 
+Currently, MicroCity is mainly used in teaching and research. It can be freely distributed.
