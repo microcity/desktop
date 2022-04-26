@@ -16,7 +16,7 @@
   - [3.7 Modules](3.7_modules.md)
 - 4 Scripting Interfaces
   - [4.1 SI Overview](4.1_si_overview.md)
-  - [4.2 User Interaction](4.2_user_interaction.md)
+  - [4.2 UI Control](4.2_ui_control.md)
   - [4.3 Shapes and Tables](4.3_shapes_and_tables.md)
   - [4.4 Grids](4.4_function_grids.md)
   - [4.5 Networks](4.5_funcction_network.md)
