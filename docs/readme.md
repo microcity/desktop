@@ -10,7 +10,7 @@
   - [3.1 UI Overview](3.1_ui_overview.md)
   - [3.2 Vector Shapes](3.2_vector_shapes.md)
   - [3.3 Raster Grids](3.3_raster_grids.md)
-  - [3.4 3D Scenes](3.4_3d_scene.md)
+  - [3.4 3D Scenes](3.4_3d_scenes.md)
   - [3.5 Tables](3.5_tables.md)
   - [3.6 Maps and Layers](3.6_maps_and_layers.md)
   - [3.7 Modules](3.7_modules.md)
