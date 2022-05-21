@@ -13,7 +13,7 @@
   - [3.4 3D Scenes](3.4_3d_scenes.md)
   - [3.5 Tables](3.5_tables.md)
   - [3.6 Maps and Layers](3.6_maps_and_layers.md)
-  - [3.7 Modules](3.7_modules.md)
+  - [3.7 Modules and Script Editor](3.7_modules.md)
 - 4 Scripting Interfaces
   - [4.1 SI Overview](4.1_si_overview.md)
   - [4.2 UI Control](4.2_ui_control.md)
