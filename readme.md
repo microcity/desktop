@@ -9,8 +9,8 @@ Open **ScriptEditor** and type:
 Print("hello, world!")
 ```
 Save as **test.mcs** and load it in **MicroCity**.  
-Find the **Modules** tab and double click module **main** under library **test** .
-You will find the message printed below.
+Find the **Modules** tab and double click module **main** under library **test**.  
+You will find the message printed below.  
 For more information please go to [**Documentation**](docs/).  
 ## Author
 Sun Zhuo (mixwind@gmail.com)
