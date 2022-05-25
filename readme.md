@@ -1,5 +1,6 @@
 # MicroCity
 A Spatial Planning Tool
+
 ![Screenshots](docs/imgs/microcity.png)
 ## Quick Start
 [Download and install MicroCity](https://github.com/microcity/microcity.github.io/releases/latest).  
