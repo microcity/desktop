@@ -8,7 +8,7 @@ Open ScriptEditor and write:
 Print("hello, world!")
 ```
 Save to **test.mcs** and open it in MicroCity.  
-Find **modules** tab and double click "main" under "test" module.  
+Find the **Modules** tab and double click "main" under "test" module.  
 For more tutorials please go to [**Documentation**](docs/).  
 ## Author
 Sun Zhuo (mixwind@gmail.com)
