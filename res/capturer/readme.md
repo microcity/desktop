@@ -1,5 +1,5 @@
 # 地图图片自动抓取合成工具
-本工具使用autoit脚本编写，专门抓取各种地图网页服务的图，所见即所得，只要支持鼠标拖动即可。
+本工具使用AutoIt脚本编写，专门抓取各种地图网页服务的图片，所见即所得，只要支持鼠标拖动即可。
 首先下载[MapCapturer.zip](MapCapturer.zip)并解压，解压后目录如图： 
 
 ![1](https://user-images.githubusercontent.com/4956469/172093174-5f895968-becc-4bb1-b1e5-5a50bdb54bae.png)
