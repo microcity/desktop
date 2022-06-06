@@ -1,5 +1,5 @@
 # 资源共享
-本页资源不定期更新，所有数据均可使用[MicroCity](https://github.com/microcity/microcity.github.io/releases/latest)打开，公开发布或者出版请添加引用（htts://microcity.github.io）。
+本页资源不定期更新，所有数据均可使用[MicroCity](https://github.com/microcity/microcity.github.io/releases/latest)打开，导出其他格式文件请参考[3.2](../docs/3.2_vector_shapes.md)，公开发布或者出版请添加引用（htts://microcity.github.io）。
 ## 中国地图
 [中国地图-审图号GS(2020)4619号](中国地图-审图号GS(2020)4619号.zip)，使用[标准地图服务官方网站](http://bzdt.ch.mnr.gov.cn/)提供的数据转换：
 ![屏幕截图 2022-06-06 112548](https://user-images.githubusercontent.com/4956469/172089516-6d4158c6-82c4-43f9-a3b5-3852a687d668.png)
