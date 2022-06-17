@@ -21,5 +21,5 @@
   - [4.4 Grids](4.4_grids.md)
   - [4.5 3D Scenes](4.5_3d_scenes.md)
   - [4.6 Networks](4.6_networks.md)
-  - [4.7 Discrete Event Simulation](4.7_discrete_event_simulation.md)
+  - [4.7 Discrete Event Simulations](4.7_des_simulations.md)
   - [4.8 Mixed Integer Programming](4.8_mixed_integer_programming.md)
