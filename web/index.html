@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<title>Wasmoon Test</title>
+</head>
+
+<body>
+	<script src="three.min.js"></script>
+	
+	<script>
+	// 场景
+	var scene = new THREE.Scene();
+
+	// 摄像机
+	var camera = new THREE.PerspectiveCamera(75,window.innerWidth/window.innerHeight,0.1,000);
+
+	// 渲染器
+	var renderer = new THREE.WebGLRenderer();
+	renderer.setSize(window.innerWidth,window.innerHeight);
+	document.body.appendChild(renderer.domElement);
+
+	// 物体
+	function AddCube(){
+		var geometry = new THREE.BoxGeometry(1,1,1);
+		var material = new THREE.MeshBasicMaterial({color:0x00ff00});
+		var mesh = new THREE.Mesh(geometry,material);
+		scene.add(mesh);
+		return mesh;
+	};
+	//var cube = AddCube();
+
+	camera.position.z = 5;
+	// 动画
+	var update = function(){
+		requestAnimationFrame(update);
+		//cube.rotation.x += 0.01;
+		//cube.rotation.y += 0.01;
+		renderer.render(scene,camera);  //渲染
+	};
+	update();
+	</script>
+	
+	<script src="webtest.js"></script>
+</body>
+</html>
