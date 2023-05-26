@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>tiles</title>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<style type="text/css">
+html { overflow: hidden; }
+body { overflow: hidden; padding: 0; margin: 0;
+width: 100%; height: 100%; font-family: Trebuchet MS, Trebuchet, Arial, sans-serif; }
+#map { position: absolute; top: 10px; left: 10px; right: 10px; bottom: 15px; overflow: auto; }
+#footer { position: absolute; bottom: 0px; left: 0px; width:100%; height: 12px; overflow: hidden; }
+@media screen and (max-width: 600px) {
+  #map { top:0px; left:0px; width:100%; height:100%;}
+}
+body { background: #f4f4f4;}
+#header { background: #fff; box-shadow: 0 1px 3px #CCC; border: 1px solid #ccc; }
+#header h1 { padding:7px 10px; margin:0; font-size: 28px; }
+#map { border: 1px solid #ccc; box-shadow: 0 1px 3px #CCC; background-color: #DEDCD7;}
+#footer { text-align:center; font-size:9px; color:#606060; }
+</style>
+<!--[if lte IE 6]>
+<style type="text/css">
+#map {
+    height:expression(document.body.clientHeight-35); /* 10+10+15=35 */
+    width:expression(document.body.clientWidth-20); /* 10+10=20 */
+}
+</style>
+<![endif]-->
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=&sensor=false"></script>
+<script type="text/javascript">
+var map;
+var mapBounds = new google.maps.LatLngBounds(
+    new google.maps.LatLng(-79.233713, -179.999997),
+    new google.maps.LatLng(83.746440, 179.945617));
+var mapMinZoom = 0;
+var mapMaxZoom = 3;
+var maptiler = new google.maps.ImageMapType({
+    getTileUrl: function(coord, zoom) { 
+        var proj = map.getProjection();
+        var z2 = Math.pow(2, zoom);
+        var tileXSize = 256 / z2;
+        var tileYSize = 256 / z2;
+        var tileBounds = new google.maps.LatLngBounds(
+            proj.fromPointToLatLng(new google.maps.Point(coord.x * tileXSize, (coord.y + 1) * tileYSize)),
+            proj.fromPointToLatLng(new google.maps.Point((coord.x + 1) * tileXSize, coord.y * tileYSize))
+        );
+        var x = coord.x >= 0 ? coord.x : z2 + coord.x
+        var y = coord.y;
+        if (mapBounds.intersects(tileBounds) && (mapMinZoom <= zoom) && (zoom <= mapMaxZoom))
+            return zoom + "/" + x + "/" + y + ".png";
+        else
+            return "https://www.maptiler.com/img/none.png";
+    },
+    tileSize: new google.maps.Size(256, 256),
+    isPng: true,
+    name: "Rendered with MapTiler Engine <https://www.maptiler.com/engine/>, non-commercial use only",
+    alt: "Rendered with MapTiler Engine",
+
+    opacity: 1.0
+});
+function init() {
+    var opts = {
+        tilt:0,
+        streetViewControl: false,
+        center: new google.maps.LatLng(2.256364, -0.027190),
+        zoom: 0
+    };
+    map = new google.maps.Map(document.getElementById("map"), opts);
+    map.setMapTypeId('satellite');
+    map.overlayMapTypes.insertAt(0, maptiler);
+}
+</script>
+</head>
+<body onload="init()">
+<div id="footer"><a href="https://www.maptiler.com/engine/">Rendered with MapTiler Engine</a>, non-commercial use only</div>
+<div id="map"></div>
+</body>
+</html>
