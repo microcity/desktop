@@ -1,5 +1,4 @@
-# MicroCity
-A Spatial Planning Tool
+# MicroCity Desktop
 
 ![Screenshots](doc/imgs/microcity.png)
 ## Quick Start
