@@ -12,4 +12,4 @@ Find the **Modules** tab and double click the module ![icon](doc/imgs/icon_modul
 You will find the message printed in the **Messages** panel below.  
 For more information please go to [**Documentation**](doc/).  
 ## Author
-Sun Zhuo (mixwind@gmail.com)
+Mixwind (mixwind@gmail.com)
