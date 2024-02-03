@@ -1,5 +1,5 @@
 # MicroCity Desktop
-A Performant Logistics Modeling Tool
+A Performant Spatial Modeling Tool
 ![Screenshots](doc/imgs/microcity.png)
 ## Quick Start
 [Download and install MicroCity](https://github.com/microcity/microcity.github.io/releases/latest).  
